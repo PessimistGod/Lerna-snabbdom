@@ -1,0 +1,24 @@
+{
+  "name": "snabbdom",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "PessimistGod <rameshrahul0004@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__",
+    "dist":"dist",
+    "src":"src"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "scripts": {
+    "start":"live-server",
+    "build": "webpack",
+    "test": "node ./__tests__/snabbdom.test.js"
+  }
+}

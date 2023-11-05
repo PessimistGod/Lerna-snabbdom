@@ -1,0 +1,4 @@
+npx lerna init
+npm i -g lerna
+lerna create frontend
+npx lerna clean -y <- to clean all nodemodule and files from package
