@@ -8,13 +8,10 @@
   "main": "index.html",
   "directories": {
     "lib": "lib",
-    "test": "__tests__",
-    "dist":"dist",
-    "src":"src"
+    "test": "__tests__"
   },
   "files": [
-    "lib",
-    "dist"
+    "lib"
   ],
   "scripts": {
     "start":"live-server",

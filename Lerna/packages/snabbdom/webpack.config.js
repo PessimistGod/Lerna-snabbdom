@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'development', // Set this to 'production' for production builds
+  mode: 'development',
   entry: './src/app.js',
   output: {
     filename: 'bundle.js',
