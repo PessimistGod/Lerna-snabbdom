@@ -14,9 +14,9 @@
 
 ## Refered URL to create Snabbdom Application
 
- (Refer Link 1)[https://medium.com/@yelouafi/react-less-virtual-dom-with-snabbdom-functions-everywhere-53b672cb2fe3]
+(Refer Link 1)[https://medium.com/@yelouafi/react-less-virtual-dom-with-snabbdom-functions-everywhere-53b672cb2fe3]
 ![The Code Link 1](Images/Screenshot1.png)
- (Refer Link 2)[https://github.com/snabbdom/snabbdom]
+(Refer Link 2)[https://github.com/snabbdom/snabbdom]
 ![The Code Link 2](Images/Screenshot2.png)
 
 
