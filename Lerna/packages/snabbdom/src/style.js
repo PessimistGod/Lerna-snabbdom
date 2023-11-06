@@ -46,4 +46,15 @@ export const stylesMain = {
         fontFamily: "serif",
         border: "none",
     },
+    unmountButton:{
+        position: "absolute",
+        top: "2px",
+        right:"4px",
+        padding: "12px 4px",
+        backgroundColor: "#ED0800",
+        color:"white",
+        border: "none",
+        borderRadius: "16px"
+
+    } 
 };

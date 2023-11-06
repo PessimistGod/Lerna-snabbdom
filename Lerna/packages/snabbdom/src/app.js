@@ -45,6 +45,11 @@ function createCounterApp(containerId, initialState = 0) {
         update();
     }
 
+    function unmount() {
+        container = patch(container, h('!'));
+        console.log("Component Unmounted");
+    }
+
     function view(count) {
         return h("div#container", { style: { ...stylesMain.container, ...stylesMain.flexCenter } }, [
             h("h1", { style: { ...stylesMain.h1Style } }, `${count}`),
@@ -55,6 +60,7 @@ function createCounterApp(containerId, initialState = 0) {
                     h("button", { on: { click: stopIncrement }, style: { ...stylesMain.startStopButton } }, "Stop"),
                 ]),
                 h("button", { on: { click: resetCounter }, style: { ...stylesMain.resetButton } }, "Reset"),
+                h("button", { on: { click: unmount }, style: { ...stylesMain.unmountButton } }, "Unmount"),
             ]),
         ]);
     }
@@ -71,7 +77,6 @@ function createCounterApp(containerId, initialState = 0) {
         const newVnode = view(count);
         container = patch(container, newVnode);
     }
-
 
     return {
         mount,
